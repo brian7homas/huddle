@@ -8,5 +8,14 @@
  * @type {import('gatsby').GatsbyConfig}
  */
 module.exports = {
-  plugins: [],
+  plugins: [
+    {
+      resolve: "gatsby-plugin-react-svg",
+      options: {
+        rule: {
+          include: /assets/
+        }
+      }
+    }
+  ],
 }
