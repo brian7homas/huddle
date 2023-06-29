@@ -1,7 +1,8 @@
 import * as React from "react"
 import { useEffect } from "react"
 import Parallax from "parallax-js"
-
+import '../styles/home.scss'
+import DesktopBG from "../components/DesktopBG"
 export default function Home() {
   useEffect(() => {
     let mainScene = document.getElementById('scene');

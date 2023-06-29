@@ -16,6 +16,7 @@ module.exports = {
           include: /assets/
         }
       }
-    }
+    },
+    `gatsby-plugin-sass`
   ],
 }
