@@ -10,6 +10,16 @@
 module.exports = {
   plugins: [
     {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `Poppins\:400,600`,
+          `Open Sans\:400`
+        ],
+        display: 'swap'
+      }
+    },
+    {
       resolve: "gatsby-plugin-react-svg",
       options: {
         rule: {
