@@ -1,2 +1,2 @@
 import 'normalize.css'
-import './src/styles/home.scss'
+import './src/scout-output/styles.css'

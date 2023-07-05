@@ -1,7 +1,6 @@
 import * as React from "react"
 import { useEffect } from "react"
 import Parallax from "parallax-js"
-import '../styles/home.scss'
 import DesktopBG from "../components/DesktopBG"
 import Header from "../components/Header"
 export default function Home() {

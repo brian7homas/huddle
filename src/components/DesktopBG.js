@@ -1,5 +1,5 @@
 import React from "react"
-
+// import '../styles/desktop-bg.scss'
 function DesktopBG() {
   return (
     <svg width="1318" height="800" xmlns="http://www.w3.org/2000/svg">
