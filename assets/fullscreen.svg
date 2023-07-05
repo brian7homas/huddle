@@ -1,0 +1,14 @@
+<svg className="fullscreen" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1057.3" height="801" viewBox="0 0 1057.3 801">
+  <defs>
+    <linearGradient id="linear-gradient" x1="-0.452" y1="1.881" x2="0.978" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ff52c1"/>
+      <stop offset="0.041" stop-color="#f952c5"/>
+      <stop offset="1" stop-color="#9952ff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="-0.641" y1="-1.219" x2="0.978" y2="1" xlink:href="#linear-gradient"/>
+  </defs>
+  <g id="Group_32" data-name="Group 32" transform="translate(-60.4)">
+    <path id="Path_10" data-name="Path 10" d="M0,0H409.224L834.817-376V-532.83Z" transform="translate(895.217) rotate(180)" fill-rule="evenodd" fill="url(#linear-gradient)"/>
+    <path id="Path_11" data-name="Path 11" d="M0,367l641.153.138L1057.3,673.3V801Z" transform="translate(1117.7 1168) rotate(180)" fill-rule="evenodd" fill="url(#linear-gradient-2)"/>
+  </g>
+</svg>
