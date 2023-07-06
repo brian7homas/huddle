@@ -1,8 +1,9 @@
 import * as React from "react"
 import { useEffect } from "react"
 import Parallax from "parallax-js"
-import DesktopBG from "../components/DesktopBG"
 import Header from "../components/Header"
+import MainContainer from "../components/MainContainer"
+import ColumnContainer from "../components/ColumnContainer"
 export default function Home() {
   useEffect(() => {
     let mainScene = document.getElementById('scene');
@@ -20,7 +21,10 @@ export default function Home() {
       backgroundSize: 'contain',
       backgroundPosition: '-1em center'
     }}>
-      <Header />
+      <MainContainer>
+        <Header />
+        <ColumnContainer />
+      </MainContainer>
     </main>
   )
 }
