@@ -1,8 +1,8 @@
 import * as React from "react"
 import { useEffect } from "react"
 import Parallax from "parallax-js"
-import '../styles/home.scss'
 import DesktopBG from "../components/DesktopBG"
+import Header from "../components/Header"
 export default function Home() {
   useEffect(() => {
     let mainScene = document.getElementById('scene');
@@ -14,13 +14,13 @@ export default function Home() {
   }, [])
 
   return (
-    <main id="scene">
-      <div data-depth="0.2">
-        <p>Layer 1</p>
-      </div>
-      <div>
-        <DesktopBG/>
-      </div>
+    <main id="scene" style={{
+      backgroundImage:`url('fullscreen.svg')`,
+      backgroundRepeat:'no-repeat',
+      backgroundSize: 'contain',
+      backgroundPosition: '-1em center'
+    }}>
+      <Header />
     </main>
   )
 }
