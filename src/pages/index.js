@@ -20,7 +20,7 @@ export default function Home() {
       linear-gradient(217deg,#e882e8,rgba(55, 0, 100, .15) 70.71%),
       linear-gradient(127deg, hsla(257, 40%, 49%, 1), hsla(257, 40%, 49%, .5) 70.71%),
       linear-gradient(336deg, hsla(257, 40%, 49%, 1), hsla(257, 40%, 49%, 1) 70.71%)`,
-      backgroundSize: 'contain',
+      backgroundSize: 'cover',
       backgroundPosition: 'left center'
     }}>
       <MainContainer>

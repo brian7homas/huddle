@@ -1,11 +1,18 @@
 .column-container{
   display:flex;
   margin: 5em 2em;
+  @include respond-to(tablet){
+    flex-direction: column;
+    align-items: center;
+  }
 }
 .copy-container{
   flex-basis: 0;
   padding: 0.98em 0 3.4em 3.4em;
   flex-grow:1;
+  @include respond-to(tablet){
+    padding: 1em 0;
+  }
 }
 
 .copy-container h1{
@@ -17,14 +24,20 @@
   letter-spacing: -.003em;
   font-weight:600;
   line-height: 1.4em;
+  @include respond-to(tablet){
+    font-size: 2.19em;
+  }
 }
 .copy-container p{
   font-family: 'Open sans';
   color: hsla(360, 100%, 100%, .65);
   font-size: 1.1rem;
-
   line-height:1.4em;
   word-spacing: .15em;
+  @include respond-to(tablet){
+    font-size: 1.4rem;
+    width: 65vw;
+  }
 }
 .copy-container button{
   margin-top: 1em;
