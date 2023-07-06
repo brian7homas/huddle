@@ -14,7 +14,12 @@ export default function Home() {
   }, [])
 
   return (
-    <main id="scene">
+    <main id="scene" style={{
+      backgroundImage:`url('fullscreen.svg')`,
+      backgroundRepeat:'no-repeat',
+      backgroundSize: 'contain',
+      backgroundPosition: '-1em center'
+    }}>
       <Header />
     </main>
   )
