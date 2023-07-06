@@ -16,10 +16,12 @@ export default function Home() {
 
   return (
     <main id="scene" style={{
-      backgroundImage:`url('fullscreen.svg')`,
-      backgroundRepeat:'no-repeat',
+      background: `url('fullscreen.svg') no-repeat, 
+      linear-gradient(217deg,#e882e8,rgba(55, 0, 100, .15) 70.71%),
+      linear-gradient(127deg, hsla(257, 40%, 49%, 1), hsla(257, 40%, 49%, .5) 70.71%),
+      linear-gradient(336deg, hsla(257, 40%, 49%, 1), hsla(257, 40%, 49%, 1) 70.71%)`,
       backgroundSize: 'contain',
-      backgroundPosition: '-1em center'
+      backgroundPosition: 'left center'
     }}>
       <MainContainer>
         <Header />
