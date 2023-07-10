@@ -4,10 +4,23 @@
   box-sizing: border-box;
 }
 main{
-  height:100vh;
+  min-height:100vh;
   position: relative;
   z-index: -1;
-  overflow:hidden;
+  background: url('/fullscreen.svg') no-repeat, 
+  linear-gradient(217deg,#e882e8,rgba(55, 0, 100, .15) 70.71%),
+  linear-gradient(127deg, hsla(257, 40%, 49%, 1), hsla(257, 40%, 49%, .5) 70.71%),
+  linear-gradient(336deg, hsla(257, 40%, 49%, 1), hsla(257, 40%, 49%, 1) 70.71%);
+  background-size: cover;
+  background-position: left center;
+  @include respond-to(tablet-portrait){
+    background: url('/mobile-fullscreen.svg') no-repeat, 
+    linear-gradient(27deg,#e882e8,rgba(55, 0, 100, .15) 70.71%),
+    linear-gradient(127deg, hsla(257, 40%, 49%, 1), hsla(257, 40%, 49%, .5) 70.71%),
+    linear-gradient(336deg, hsla(257, 40%, 49%, 1), hsla(257, 40%, 49%, 1) 70.71%);
+    background-size: contain;
+    background-position: left top;
+  }
 }
 svg {
   max-width: 100%;
