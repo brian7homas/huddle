@@ -16,4 +16,7 @@ $lg:2024px;
   @else if $media == lg {
     @media only screen and (max-width: $lg) { @content; }
   }
+  @else if $media == tablet-portrait {
+    @media only screen and (max-width: $tablet) and (orientation: portrait) { @content; }
+  }
 }

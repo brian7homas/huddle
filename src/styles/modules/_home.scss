@@ -19,4 +19,7 @@ svg {
 }
 .main-container{
   padding: 3em 2.8em;
+  @include respond-to(mobile){
+    padding: 2em .4em;
+  }
 }

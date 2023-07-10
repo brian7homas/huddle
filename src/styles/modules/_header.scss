@@ -1,9 +1,8 @@
 .header_logo{
   transform: scale(.8);
-}
-.header_logo{
-  color:'white';
-  font-family: 'Poppins';
-  font-size: 2rem;
-  margin:0;
+  @include respond-to(mobile){
+    transform: scale(0.5);
+    transform-origin: top left;
+    margin-left: 1.72em;
+  }
 }
