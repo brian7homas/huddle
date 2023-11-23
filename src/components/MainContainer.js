@@ -2,9 +2,9 @@ import React from "react"
 
 function MainContainer({children}) {
   return (
-    <section className="main-container">
+    <div className="main-container">
       {children}
-    </section>
+    </div>
   )
 }
 
