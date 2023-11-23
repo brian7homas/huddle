@@ -8,6 +8,13 @@
  * @type {import('gatsby').GatsbyConfig}
  */
 module.exports = {
+  pathPrefix:'/projects/huddle/',
+  siteMetadata: {
+    title: `Huddle`,
+    description: `Frontend Mentor Huddle challenge solution`,
+    image: `/favicon.png`,
+    siteUrl: `https://www.brianthomas-develops.com`,
+  },
   plugins: [
     {
       resolve: `gatsby-plugin-google-fonts`,
