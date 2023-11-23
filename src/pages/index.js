@@ -1,6 +1,4 @@
 import * as React from "react"
-import { useEffect } from "react"
-import Parallax from "parallax-js"
 import Header from "../components/Header"
 import MainContainer from "../components/MainContainer"
 import ColumnContainer from "../components/ColumnContainer"
