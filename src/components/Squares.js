@@ -1,5 +1,8 @@
+import React from "react"
 
-    <svg id="squares-container" xmlns="http://www.w3.org/2000/svg"   viewBox="0 0 1560.202 740.954">
+function Squares() {
+  return (
+    <svg id="squares-container" xmlns="http://www.w3.org/2000/svg" width="1260.202" height="740.954" viewBox="0 0 1560.202 740.954">
       <defs>
         <linearGradient id="linear-gradient" x1="0.217" y1="0.05" x2="1.459" y2="1.456" gradientUnits="objectBoundingBox">
           <stop offset="0" stop-color="#ff52c1" />
@@ -29,6 +32,6 @@
         <path id="Path_12" data-name="Path 12" d="M91.477,739.477v-16.5a5,5,0,0,1,10,0v16.5h16.5a5,5,0,0,1,0,10h-16.5v16.5a5,5,0,1,1-10,0v-16.5h-16.5a5,5,0,0,1,0-10Z" transform="translate(615.082 149.833) rotate(45)" fill-rule="evenodd" opacity="0.211" fill="#ff52c1" />
       </g>
     </svg>
-
-
-  
+  )
+}
+export default Squares
