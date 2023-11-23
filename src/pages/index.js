@@ -5,6 +5,9 @@ import Header from "../components/Header"
 import MainContainer from "../components/MainContainer"
 import ColumnContainer from "../components/ColumnContainer"
 import { Seo }  from "../components/Seo"
+import UseIsClient from "../components/UseIsClient"
+  const { isClient } = UseIsClient()
+  if( !isClient ) return null
   return (
     <main id="scene">
       <MainContainer>
