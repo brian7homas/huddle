@@ -21,4 +21,13 @@ const Home = () => {
   )
 }
 export default Home
+export const Head = () => {
+  return(
     <Seo
+      title="Huddle"
+      description="Frontend Mentor Huddle challenge solution"
+      image="/favicon.ico"
+    />
+  )
+  
+}
